@@ -1,0 +1,29 @@
+#outerDiv{
+
+    height: 80px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: red;
+    overflow: auto;
+   
+}
+
+#innerDiv1{
+
+     height: 24%;
+     width: 24%;
+     background-color: red;
+}
+
+#innerDiv2{
+
+    height: 24%;
+     width: 24%;
+     background-color:blue;
+     margin-top: 8px;
+     position: relative;
+     left: 40px;
+     top: 20px;
+    
+}

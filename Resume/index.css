@@ -1,0 +1,433 @@
+body {
+
+    margin: 0px;
+
+}
+
+section {
+    
+    margin-bottom: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Header*/
+#header {
+
+    height: 66vh;
+    background-image: url("macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+
+
+
+/*Navbar*/
+
+#header li {
+
+    display: inline-block;
+    margin-left: 28px;
+    padding: 6px;
+    position: relative;
+    left: 124px;
+    top: 4px;
+    color: aqua;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+
+/*removing-bullets*/
+
+.navbar-ul {
+
+    list-style: none;
+    margin: 0px;
+}
+
+/*setting color and decorating <a> tag*/
+
+.navbar-ul li a {
+
+    color: aqua;
+    text-decoration: none;
+
+}
+
+.navbar-ul li a:hover {
+
+    color: red;
+    border-bottom: 2px solid red;
+
+}
+
+/*applying name*/
+
+#name-container {
+
+
+    padding-top: 16px;
+    margin-top: 8px
+}
+
+#name-container h1 {
+
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 14px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    letter-spacing: 4px;
+}
+
+/*applying logos*/
+
+#logo-container {
+
+
+    padding-top: 74px;
+    position: relative;
+    bottom: 66px;
+}
+
+#logo-contaier li {
+
+    list-style: none;
+
+}
+
+/*decorating logos*/
+
+.logo-ul a {
+
+    font-size: 32px;
+    padding: 8px;
+    position: relative;
+    left: 234px;
+    bottom: 38px;
+    color: darkmagenta;
+    border-radius: 50%;
+
+
+}
+
+.logo-ul a:hover {
+
+    box-shadow: 0px 0px 6px 4px gray;
+
+}
+
+.logo-ul a i:hover {
+
+    color: darkgoldenrod;
+
+
+}
+
+/*about section*/
+
+#about {
+
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+#my-image {
+
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    margin-top: -64px;
+
+}
+
+#my-image img {
+
+    height: 28%;
+    width: 28%;
+    border-radius: 50%;
+    position: relative;
+    left: 184px;
+    bottom: 24px;
+    border-color: aqua;
+}
+
+#about p {
+
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 83, 151);
+}
+
+.section-heading span {
+
+    margin-left: 10px;
+    font-size: 44px;
+    color: rgb(35, 35, 231);
+   
+
+}
+
+/*Skills section*/
+
+#skills-display {
+
+    height: auto;
+    width: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.skills-progress {
+
+    margin-top: 54px;
+    border: 2px solid gray;
+    border-radius: 200px;
+    width: 20%;
+    height: 10%;
+    background-color: lightgrey;
+    margin-bottom: 26px;
+
+
+
+}
+
+.skills-describing {
+
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+
+#skill1-percentage {
+
+    background-color: aqua;
+    width: 80%;
+    height: auto;
+    border-radius: 200px;
+}
+
+#skill2-percentage {
+
+    background-color: red;
+    width: 84%;
+    height: auto;
+    border-radius: 200px;
+}
+
+#skill3-percentage {
+
+    background-color: yellow;
+    width: 84%;
+    height: auto;
+    border-radius: 200px;
+}
+
+#skill4-percentage {
+
+    background-color: rgb(33, 104, 211);
+    width: 68%;
+    height: auto;
+    border-radius: 200px;
+
+}
+
+#skill5-percentage {
+
+    background-color: rgb(112, 192, 14);
+    width: 74%;
+    height: auto;
+    border-radius: 200px;
+}
+
+#skill6-percentage {
+
+    background-color: rgb(135, 126, 23);
+    width: 80%;
+    height: auto;
+    border-radius: 200px;
+}
+
+/*Portfolio-Section*/
+
+#portfolio-display {
+
+    box-sizing: border-box;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+
+
+}
+
+.portfolio-image {
+
+    height: 25vh;
+    width: 25vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 38px;
+    padding: 46px 50px;
+
+}
+
+.portfolio-image img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.portfolio-details {
+
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.portfolio-image:hover {
+
+    box-shadow: 1px 1px 4px 8px gray;
+}
+
+.portfolio-image .portfolio-details:hover {
+
+
+    background-color: #80808078;
+    color: white;
+}
+ 
+/*Certification Section*/
+
+#certification{
+
+   margin-top: 8%;
+}
+#certification-display {
+
+    position: relative;
+    width: 74%;
+
+}
+
+.certification-box {
+
+    position: relative;
+    width: 40%;
+    left: 6%;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    min-height: 150px;
+    
+}
+
+.certification-box:nth-child(2n){
+
+    left: 54%;
+}
+.certification-divider{
+ 
+    position: absolute;
+    height: 74%;
+    width: 0;
+    top: 14%;
+    left: 50%;
+    border: 2px dashed blue;
+    
+}
+.traveller{
+    
+   font-size: 28px;
+   position: sticky;
+   top: 28%;
+   transform: rotate(90deg);
+   z-index: 2;
+}
+
+.certification-box:nth-child(2n+1)::after{
+
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    top: 48%;
+    border-radius: 50%;
+    right: -11%;
+    z-index: 1;
+}
+.certification-box:nth-child(2n)::after{
+
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    top: 56%;
+    border-radius: 50%;
+    left: -11%;
+    z-index: 1;
+   
+}
+
+.certification-box h2{
+
+    position: absolute;
+    left: 34%;
+    bottom: 20%;
+    color: brown;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.certification-box:nth-child(2n+1)::before{
+     
+    content: '';
+    display: inline-block;
+    background-image: url('hakerrank.png');
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 64px;
+    right: 246px;
+    
+}
+.certification-box:nth-child(2n)::before{
+     
+    content: '';
+    display: inline-block;
+    background-image: url('s1AjSxph_400x400.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 51px;
+    width: 34px;
+    position: absolute;
+    top: 68px;
+    right: 260px; 
+}
