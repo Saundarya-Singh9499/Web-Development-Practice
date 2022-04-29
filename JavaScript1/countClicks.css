@@ -1,0 +1,19 @@
+#div{
+
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    position: relative;
+    left: 24%;
+    border: 2px solid red;
+    background-color: red;
+    
+}
+
+p{
+
+    font-size: 44px;
+    text-align: center;
+    position: relative;
+    right: 10%;
+}

@@ -1,0 +1,69 @@
+@keyframes changeShape {
+
+    from {
+
+        border-radius: 0%;
+    }
+
+    to {
+        border-radius: 50%;
+    }
+}
+
+@keyframes rotate {
+
+    from {
+
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes changeSize {
+
+    from {
+
+        height: 200px;
+        width: 200px;
+    }
+
+    to {
+
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@keyframes position{
+
+    from{
+
+        position: absolute;
+        left: 0%;
+    }
+      
+    to{
+
+        position: absolute;
+        left: 20%;
+    }
+}
+
+div{ 
+
+    height: 140px;
+    width: 140px;
+    border: 2px solid aquamarine;
+    background-color: aquamarine;
+    position: absolute;
+    left: 20%;
+    top: 24%;
+    animation-name: changeShape , rotate , changeSize , position;
+    animation-duration: 0.9s , 0.9s , 0.9s , 0.9s;
+    animation-iteration-count: infinite , infinite ,infinite , infinite;
+    animation-direction: alternate , alternate , alternate , alternate;   
+
+}

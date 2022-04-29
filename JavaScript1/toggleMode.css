@@ -1,0 +1,39 @@
+#mainDiv{
+
+    height: 100vh;
+    width: 100vw;
+ 
+}
+
+#outerDiv{
+
+    margin-top: 28px;
+    height: 18px;
+    width: 104px;
+    border: 2px solid grey;
+    margin-left: 400px;
+    border-radius: 40px;
+    
+    
+}
+
+#innerDiv{
+    
+    height: 14px;
+    width: 14px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: black;
+   
+}
+
+#h1{
+
+    text-align: center;
+    font-size: 44px;
+    position: relative;
+    left: 24px;
+    top: 24px;
+    font-weight: bolder;
+}
+

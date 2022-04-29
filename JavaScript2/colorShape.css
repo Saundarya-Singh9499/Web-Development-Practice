@@ -1,0 +1,46 @@
+#outerDiv{
+
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    border: 2px solid slateblue;
+    background-color: slateblue;
+    border-radius: 50%;
+    position: relative;
+    left: 24%;
+}
+
+#innerDiv{
+
+    height: 114px;
+    width: 114px;
+    border: 2px solid white;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    
+}
+
+/* #innerDiv{
+
+    top: 20%;
+    left: 20%;
+    height: 14px;
+    width: 0px;
+    border-bottom: 100px solid white;
+    border-right: 100px solid transparent;
+    position: relative;
+} */
+
+button{
+
+    display: block;
+    margin-bottom: 24px;
+    position: relative;
+    left: 36%;
+    height: 40px;
+    width: 100px;
+    
+    
+}

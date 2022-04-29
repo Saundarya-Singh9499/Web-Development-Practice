@@ -1,0 +1,22 @@
+#outerDiv{
+
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    border: 2px solid red;
+    background-color: red;
+}
+
+#innerDiv{
+
+    height: 50%;
+    width: 50%;
+    margin: 25%;
+    border: 2px solid blue;
+    background-color: blue;
+}
+p{
+
+    text-align: center;
+    font-size: 50px;
+}
